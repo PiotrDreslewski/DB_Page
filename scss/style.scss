@@ -909,8 +909,8 @@ div .vertical{
 }
 @keyframes animateZoom {
   from {
-    width: 0%;
-    height: 0%;
+    width: 0;
+    height: 0;
     color:transparent;
   }
   50%{
@@ -930,10 +930,179 @@ div .vertical{
     color:transparent;
   }
   to {
-    width:0%;
-    height: 0%;
+    width:0;
+    height: 0;
     color: transparent;
   }
 }
 
 
+// ABOUT ME styles:
+.about{
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+.aboutImage{
+  background-image: url("../img/About/About1.PNG");
+  width: 70%;
+  height: 525px;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 0 auto 100px;
+  position: relative;
+}
+
+.aboutTitle{
+  font-family: 'Halant', serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 110px;
+  line-height: 110px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.aboutTextONe{
+  color: #676767;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  position: absolute;
+  top: 60%;
+  left: 38%
+}
+.aboutMe{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.aboutName{
+  font-size: 60px;
+  font-family: 'Halant', serif;
+  font-weight: bold;
+  margin: 0;
+  height: 70px;
+}
+.aboutInfo{
+  font-family: 'Noto Sans', sans-serif;
+  color: #676767;
+  font-size: 16px;
+}
+.aboutZoom{
+  -webkit-animation-name: aboutZoom;
+  -moz-animation-name: aboutZoom;
+  -o-animation-name: aboutZoom;
+  animation-name: aboutZoom;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+.aboutZoom1{
+  -webkit-animation-name: aboutZoom1;
+  -moz-animation-name: aboutZoom1;
+  -o-animation-name: aboutZoom1;
+  animation-name: aboutZoom1;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -o-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@keyframes aboutZoom {
+  from {
+    color: #ffffff;
+  }
+    to {
+      color: #000000;
+    }
+  }
+
+@keyframes aboutZoom1 {
+  from {
+    color: #ffffff;
+  }
+  to {
+    color: #676767;
+  }
+}
+
+.aboutEdu{
+  margin: 0 auto;
+  padding-right: 220px;
+  height: 370px;
+}
+
+.aboutEduIconTitle{
+  display: flex;
+}
+.aboutEduTitle{
+  font-size: 40px;
+  font-family: 'Halant', serif;
+  font-weight: bold;
+  margin: 0 0 0 20px;
+  height: 50px;
+  padding-top: 50px;
+}
+.aboutEduSchool{
+  display:flex;
+  justify-content: space-between;
+}
+.aboutEduSchoolTitle{
+  height: 215px;
+  border-right: 3px solid #676767;
+  margin-top: 50px;
+  p{
+    height:50%;
+    margin: 0 10px 0 0;
+    width: 140px;
+    color: #676767;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+}
+.aboutEduSchoolName{
+  height: 215px;
+  margin-top: 50px;
+  p{
+    height:50%;
+    margin: 0 0 0 30px;
+    width: 60%;
+    color: #676767;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+}
+
+//CONTACT styles
+
+.contact{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.contactTitle {
+  text-align: center;
+  h1 {
+    font-family: 'Noto Sans', serif;
+    color: #000000;
+  }
+}
+.contactTitleSecond{
+  text-align: center;
+  h2 {
+    font-family: 'Noto Sans', sans-serif;
+    color: #000000;
+  }
+}
+.contactForm{
+  display:flex;
+}

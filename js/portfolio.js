@@ -54,12 +54,12 @@ class PortfolioPage extends Component {
                     <div className={'mainWidth gallery heightProd'}>
                         <article><div className={'image1 PortfolioProdImageOne'}><div className={'desc hiddenOne animateZoom'}><p><span>Vis Plantis packaging</span><br/>Project of cream for Vis Plantis</p></div></div></article>
                         <article><div className={'image2 hidden'}><div className={'desc hiddenOne animateZoom vertical'}><p><span>Deante website</span><br/>Project of website design for Deante</p></div></div></article>
-                        <article><div className={'image3 hidden'}><div className={'desc hiddenOne'}><p><span>Deante catalogue</span><br/>Project of catalogue for Deante</p></div></div></article>
+                        <article><div className={'image3 hidden'}><div className={'desc hiddenOne animateZoom animateZoom'}><p><span>Deante catalogue</span><br/>Project of catalogue for Deante</p></div></div></article>
                         <article><div className={'image4 hidden'}><div className={'desc hiddenOne animateZoom vertical'}><p><span>Deante catalogue cover</span><br/>Project of cover for Deante catalogue</p></div></div></article>
-                        <article><div className={'image5 hidden'}><div className={'desc hiddenOne'}><p><span>Bathroom catalogue</span><br/>Project of bathroom catalogue for Deante</p></div></div></article>
-                        <article><div className={'image6 hidden'}><div className={'desc hiddenOne'}><p><span>Make Me BIO</span><br/>Project of Make Me BIO catalogue</p></div></div></article>
+                        <article><div className={'image5 hidden'}><div className={'desc hiddenOne animateZoom animateZoom'}><p><span>Bathroom catalogue</span><br/>Project of bathroom catalogue for Deante</p></div></div></article>
+                        <article><div className={'image6 hidden'}><div className={'desc hiddenOne animateZoom animateZoom'}><p><span>Make Me BIO</span><br/>Project of Make Me BIO catalogue</p></div></div></article>
                         <article><div className={'image7 PortfolioProdImageTwo'}><div className={'desc hiddenOne animateZoom'}><p><span>Vis Plantis Body Butter</span><br/>Project of body butter for Vis Plantis</p></div></div></article>
-                        <article><div className={'image8 hidden'}><div className={'desc hiddenOne'}><p><span>Make Me BIO Catalogue Cover</span><br/>Project of catalogue cover for Make Me BIO</p></div></div></article>
+                        <article><div className={'image8 hidden'}><div className={'desc hiddenOne animateZoom animateZoom'}><p><span>Make Me BIO Catalogue Cover</span><br/>Project of catalogue cover for Make Me BIO</p></div></div></article>
                         <article><div className={'image9 PortfolioProdImageThree'}><div className={'desc hiddenOne animateZoom vertical'}><p><span>Vis Plantis packaging</span><br/>Project of cream for Vis Plantis</p></div></div></article>
                     </div>
                 </>
@@ -76,14 +76,14 @@ class PortfolioPage extends Component {
                         </ul>
                     </div>
                         <div className={'mainWidth gallery heightWeb'}>
-                            <article><div className={'image1 hidden'}><div className={'desc hiddenOne'}><p><span>Vis Plantis packaging</span><br/>Project of cream for Vis Plantis</p></div></div></article>
+                            <article><div className={'image1 hidden'}><div className={'desc hiddenOne animateZoom'}><p><span>Vis Plantis packaging</span><br/>Project of cream for Vis Plantis</p></div></div></article>
                             <article><div className={'image2 PortfolioWebImageOne'}><div className={'desc hiddenOne animateZoom vertical'}><p><span>Deante website</span><br/>Project of website design for Deante</p></div></div></article>
-                            <article><div className={'image3 hidden'}><div className={'desc hiddenOne'}><p><span>Deante catalogue</span><br/>Project of catalogue for Deante</p></div></div></article>
+                            <article><div className={'image3 hidden'}><div className={'desc hiddenOne animateZoom'}><p><span>Deante catalogue</span><br/>Project of catalogue for Deante</p></div></div></article>
                             <article><div className={'image4 hidden'}><div className={'desc hiddenOne animateZoom vertical'}><p><span><br/>Deante catalogue cover</span>Project of cover for Deante catalogue</p></div></div></article>
-                            <article><div className={'image5 hidden'}><div className={'desc hiddenOne'}><p><span>Bathroom catalogue</span><br/>Project of bathroom catalogue for Deante</p></div></div></article>
-                            <article><div className={'image6 hidden'}><div className={'desc hiddenOne'}><p><span>Make Me BIO</span><br/>Project of Make Me BIO catalogue</p></div></div></article>
-                            <article><div className={'image7 hidden'}><div className={'desc hiddenOne'}><p><span>Vis Plantis Body Butter</span><br/>Project of body butter for Vis Plantis</p></div></div></article>
-                            <article><div className={'image8 hidden'}><div className={'desc hiddenOne'}><p><span>Make Me BIO Catalogue Cover</span><br/>Project of catalogue cover for Make Me BIO</p></div></div></article>
+                            <article><div className={'image5 hidden'}><div className={'desc hiddenOne animateZoom'}><p><span>Bathroom catalogue</span><br/>Project of bathroom catalogue for Deante</p></div></div></article>
+                            <article><div className={'image6 hidden'}><div className={'desc hiddenOne animateZoom'}><p><span>Make Me BIO</span><br/>Project of Make Me BIO catalogue</p></div></div></article>
+                            <article><div className={'image7 hidden'}><div className={'desc hiddenOne animateZoom'}><p><span>Vis Plantis Body Butter</span><br/>Project of body butter for Vis Plantis</p></div></div></article>
+                            <article><div className={'image8 hidden'}><div className={'desc hiddenOne animateZoom'}><p><span>Make Me BIO Catalogue Cover</span><br/>Project of catalogue cover for Make Me BIO</p></div></div></article>
                             <article><div className={'image9 hidden'}><div className={'desc hiddenOne animateZoom vertical'}><p><span><br/>Vis Plantis packaging</span>Project of cream for Vis Plantis</p></div></div></article>
                         </div>
                 </>
