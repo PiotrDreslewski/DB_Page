@@ -20,6 +20,43 @@ nav {
   font-family: 'Noto Sans', sans-serif;
 }
 
+a.active{
+  color: #D81F6D;
+}
+.active:before{
+  background-color: #D81F6D;
+  height: 2px;
+  display: block;
+  content: "";
+  transform: rotate(120deg);
+  position: absolute;
+  right: -5px;
+  left:0;
+  margin: 0 auto;
+  box-sizing: inherit;
+  bottom: 35px;
+  -webkit-animation: sheen 200ms forwards;
+  -o-animation: sheen 200ms forwards;
+  animation: sheen 200ms forwards;
+}
+
+.active:after{
+  background-color: #D81F6D;
+  height:2px;
+  display: block;
+  content: "";
+  transform: rotate(120deg);
+  position: absolute;
+  right: -5px;
+  left:0;
+  margin: 0 auto;
+  box-sizing: inherit;
+  top: 35px;
+  -webkit-animation: sheen 200ms forwards;
+  -o-animation: sheen 200ms forwards;
+  animation: sheen 200ms forwards;
+}
+
 .menu li{
   list-style: none;
   display: inline;
@@ -715,97 +752,188 @@ background-image: url("../img/portfolio/9.png");
   position: absolute;
   top: 0;
   left: 0;
+  cursor: pointer;
 }
 .PortfolioProdImageOne{
   position: absolute;
   top: 0;
   left: 0;
+  cursor: pointer;
 }
 .PortfolioWebImageOne{
   position: absolute;
   top: 0;
   left: 0;
+  cursor: pointer;
 }
 .PortfolioPrintImageOne{
   position: absolute;
   top: 0;
   left: 0;
+  cursor: pointer;
 }
 
 .PortfolioImageTwo {
   position:absolute;
   top: 0;
   left: 473px;
+  cursor: pointer;
 }
 .PortfolioProdImageTwo {
   position:absolute;
   top: 0;
   left: 473px;
+  cursor: pointer;
 }
 .PortfolioPrintImageTwo {
   position:absolute;
   top: 0;
   left: 473px;
+  cursor: pointer;
 }
 .PortfolioImageThree {
   position:absolute;
   top: 0;
   left: 946px;
+  cursor: pointer;
 }
 .PortfolioProdImageThree {
    position:absolute;
    top: 0;
    left: 946px;
+  cursor: pointer;
  }
 .PortfolioPrintImageThree {
   position:absolute;
   top: 0;
   left: 946px;
+  cursor: pointer;
 }
 .PortfolioImageFour {
   position:absolute;
   top: 473px;
-  left: 0px;
+  left: 0;
+  cursor: pointer;
 }
 .PortfolioImageFour {
   position:absolute;
   top: 463px;
-  left: 0px;
+  left: 0;
+  cursor: pointer;
 }
 .PortfolioPrintImageFour {
   position:absolute;
   top: 463px;
-  left: 0px;
+  left: 0;
+  cursor: pointer;
 }
 .PortfolioImageFive {
   position:absolute;
   top: 583px;
   left: 473px;
+  cursor: pointer;
 }
 .PortfolioPrintImageFive {
   position:absolute;
   top: 583px;
   left: 473px;
+  cursor: pointer;
 }
 .PortfolioImageSix {
   position:absolute;
   top: 463px;
   left: 946px;
+  cursor: pointer;
 }
 .PortfolioImageSeven {
   position:absolute;
   top: 1046px;
-  left: 0px;
+  left: 0;
+  cursor: pointer;
 }
 .PortfolioImageEight {
   position:absolute;
   top: 1046px;
   left: 473px;
+  cursor: pointer;
 }
 .PortfolioImageNine {
   position:absolute;
   top: 926px;
   left: 946px;
+  cursor: pointer;
+}
+
+article div{
+  display: flex;
+  justify-content: space-around;
+}
+
+article div:hover div.hiddenOne{
+  cursor: pointer;
+  display: block;
+  left: 0;
+  -webkit-animation: animateZoom 500ms forwards;
+  -o-animation: animateZoom 500ms forwards;
+  animation: animateZoom 500ms forwards;
+}
+
+.hiddenOne{
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.95);
+  margin: auto;
+  height:90%;
+}
+div .vertical{
+  p {
+    span {
+      padding-top: 50%;
+    }
+  }
+}
+.animateZoom {
+  -webkit-animation: animateZoomOut 500ms forwards;
+  -o-animation: animateZoomOut 500ms forwards;
+  animation: animateZoomOut 500ms forwards;
+  p{
+    text-align: center;
+    font-size: 16px;
+    span{
+      text-align: center;
+      padding-top: 35%;
+      font-size: 20px;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+  }
+}
+@keyframes animateZoom {
+  from {
+    width: 0%;
+    height: 0%;
+    color:transparent;
+  }
+  50%{
+    color:transparent;
+  }
+  to {
+    width:90%;
+    height: 90%;
+    color: #676767;
+  }
+}
+
+@keyframes animateZoomOut {
+  from {
+    width: 90%;
+    height: 90%;
+    color:transparent;
+  }
+  to {
+    width:0%;
+    height: 0%;
+    color: transparent;
+  }
 }
 
 

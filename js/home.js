@@ -10,16 +10,12 @@ class HomePage extends Component {
     }
     slides(e){
         if (this.state.value < 3 && e.currentTarget.className === 'sliderRight' ) {
-            console.log(this.state.value)
             this.setState({value: this.state.value+1});
         } else if(this.state.value >= 3 && e.currentTarget.className === 'sliderRight' ) {
-            console.log(this.state.value)
             this.setState({value: 1});
         } else if(this.state.value <= 1 && e.currentTarget.className === 'sliderLeft' ){
-            console.log(this.state.value)
             this.setState({value: 3});
         }else if(this.state.value > 1 && e.currentTarget.className === 'sliderLeft' ){
-            console.log(this.state.value)
             this.setState({value: this.state.value-1});
         }
     }
@@ -56,10 +52,6 @@ class HomePage extends Component {
                                 </div>
                             </div>
                         </section>
-                        <footer className={"mainWidth"}>
-                            <div className={"footerWidth"}><span className={"footerText"}>© Copyright 2019 | Minika Studio | Wszelkie prawa zastrzeżone</span>
-                            </div>
-                        </footer>
                     </>
                 </HashRouter>
             )
@@ -95,10 +87,6 @@ class HomePage extends Component {
                                 </div>
                             </div>
                         </section>
-                        <footer className={"mainWidth"}>
-                            <div className={"footerWidth"}><span className={"footerText"}>© Copyright 2019 | Minika Studio | Wszelkie prawa zastrzeżone</span>
-                            </div>
-                        </footer>
                     </>
                 </HashRouter>
             )
@@ -134,10 +122,6 @@ class HomePage extends Component {
                                 </div>
                             </div>
                         </section>
-                        <footer className={"mainWidth"}>
-                            <div className={"footerWidth"}><span className={"footerText"}>© Copyright 2019 | Minika Studio | Wszelkie prawa zastrzeżone</span>
-                            </div>
-                        </footer>
                     </>
                 </HashRouter>
             )
