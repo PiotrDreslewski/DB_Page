@@ -1,7 +1,7 @@
 {
   "name": "FE_REACT_React",
   "version": "1.0.0",
-  "description": "<img alt=\"Logo\" src=\"https://coderslab.pl/svg/logo-coderslab.svg\" width=\"400\">",
+  "description": "<img alt=\"Logo\" src=\"\" width=\"400\">",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot -d",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodersLab-core/FE_REACT_React.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CodersLab-core/FE_REACT_React/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/CodersLab-core/FE_REACT_React#readme",
+  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/plugin-proposal-class-properties": "^7.4.0",
@@ -33,6 +33,7 @@
   "dependencies": {
     "gh-pages": "^2.1.1",
     "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",

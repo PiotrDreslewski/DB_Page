@@ -238,11 +238,103 @@ a.active {
 }
 
 /* line 219, scss/style.scss */
-.contact {
-  font-size: 16px;
-  color: #676767;
+
+.contactFormHolder{
+  width: 50%;
+  justify-content: center;
+
+
+}
+
+.contactFormContainer {
+  width: 75%;
+  background-color: #f4d2d3;
+  margin: 0 auto;
+  height: 580px;
+}
+
+.contactForm {
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.contactForm input {
   font-family: 'Noto Sans', sans-serif;
-  font-weight: normal;
+  font-size: 15px;
+}
+
+.NameContainer {
+  width: 80%;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding-top: 160px;
+}
+
+.NameContainer input {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px;
+  color: #676767;
+}
+
+textarea {
+  resize: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 15px !important;
+  color: #676767;
+}
+
+.name {
+  background-color: #f4d2d3;
+  border: none;
+  order: 1;
+  width: 45%;
+  border-bottom: 1px solid white;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.email {
+  background-color: #f4d2d3;
+  border: none;
+  order: 1;
+  width: 45%;
+  border-bottom: 1px solid white;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.title {
+  background-color: #f4d2d3;
+  border: none;
+  order: 2;
+  width: 80%;
+  border-bottom: 1px solid white;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.message {
+  background-color: #f4d2d3;
+  border: none;
+  order: 3;
+  width: 80%;
+  border-bottom: 1px solid white;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+#confirm {
+  background-color: #f4d2d3;
+  width: 20%;
+  height:  37px;
+  border: 1px solid white;
+  order: 3;
+  color: #676767;
 }
 
 /* line 226, scss/style.scss */
@@ -1083,6 +1175,12 @@ div .vertical p span {
   flex-direction: column;
 }
 
+.aboutIcon{
+  background-image: url("../img/About/edu.PNG");
+  width: 57px;
+  height: 88px;
+}
+
 /* line 946, scss/style.scss */
 .aboutImage {
   background-image: url("../img/About/About1.PNG");
@@ -1120,6 +1218,7 @@ div .vertical p span {
 .aboutMe {
   width: 70%;
   margin: 0 auto;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -1191,14 +1290,15 @@ div .vertical p span {
 
 /* line 1038, scss/style.scss */
 .aboutEdu {
-  margin: 0 auto;
-  padding-right: 220px;
+  margin: auto;
+  width: 70%;
   height: 370px;
 }
 
 /* line 1044, scss/style.scss */
 .aboutEduIconTitle {
   display: flex;
+  justify-content: center;
 }
 
 /* line 1047, scss/style.scss */
@@ -1214,7 +1314,7 @@ div .vertical p span {
 /* line 1055, scss/style.scss */
 .aboutEduSchool {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /* line 1059, scss/style.scss */
@@ -1238,13 +1338,14 @@ div .vertical p span {
 .aboutEduSchoolName {
   height: 215px;
   margin-top: 50px;
+  width: 40%;
 }
 
 /* line 1075, scss/style.scss */
 .aboutEduSchoolName p {
   height: 50%;
   margin: 0 0 0 30px;
-  width: 60%;
+  width: 100%;
   color: #676767;
   font-size: 16px;
   font-family: 'Noto Sans', sans-serif;
@@ -1254,29 +1355,48 @@ div .vertical p span {
 .contact {
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  font-size: 16px;
+  color: #676767;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: normal;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* line 1092, scss/style.scss */
 .contactTitle {
-  text-align: center;
+  text-align: left;
 }
 
 /* line 1094, scss/style.scss */
 .contactTitle h1 {
   font-family: 'Noto Sans', serif;
   color: #000000;
+  margin-top: 160px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.contactTitle p {
+  font-size: 14px;
+  color: #676767;
+  width: 100%;
+  text-align: left;
+  margin: 0;
 }
 
 /* line 1099, scss/style.scss */
 .contactTitleSecond {
   text-align: center;
+  margin-top: 40px;
 }
 
 /* line 1101, scss/style.scss */
 .contactTitleSecond h2 {
   font-family: 'Noto Sans', sans-serif;
-  color: #000000;
+  color: #676767;
+  font-size: 20px;
 }
 
 /* line 1106, scss/style.scss */

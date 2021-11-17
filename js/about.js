@@ -18,7 +18,7 @@ class AboutMePage extends Component{
                 <div className={'aboutEdu'}>
                     <div className={'aboutEduMain'}>
                         <div className={'aboutEduIconTitle'}>
-                            <img src={'../img/About/edu.png'}/>
+                            <div className={'aboutIcon'}></div>
                             <h2 className={'aboutEduTitle'}>Education</h2>
                         </div>
                         <div className={'aboutEduSchool'}>
