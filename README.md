@@ -1,2 +1,4 @@
-# Projekt-kurs
-Projekt strony otrzymanej od grafika, pisany w react. Na zaliczenie.
+Projekt strony otrzymanej w Adobe xD, pisany w react.
+
+
+
