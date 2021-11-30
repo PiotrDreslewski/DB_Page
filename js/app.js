@@ -1,4 +1,5 @@
 import React from "react";
+import {Redirect} from 'react-router';
 import ReactDOM from "react-dom";
 import HomePage from "./home.js"
 import AboutMePage from "./about.js"
@@ -32,6 +33,9 @@ function App() {
                     </div>
                 </nav>
                 <Switch>
+                    <Route exact path='/'>
+                    <Redirect to='/home'/>
+                    </Route>
                     <Route path='/home' component={HomePage} />
                     <Route path='/how_i_work' component={HowIWorkPage} />
                     <Route path='/portfolio' component={PortfolioPage} />
@@ -49,6 +53,5 @@ function App() {
     );
 }
 
-//"homepage": "https://github.com/CodersLab-core/FE_REACT_React#readme",
 
 ReactDOM.render(<App />, document.getElementById("app"));
